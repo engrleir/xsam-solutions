@@ -13,7 +13,7 @@ webrick:
 
 # Solution permalink structure
 collections:
-  solutions:
+  posts:
     output: true
     permalink: /solutions/:name/
 
