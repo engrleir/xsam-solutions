@@ -22,8 +22,8 @@ title: xSam Solutions
 email: engr.leir@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog containing solutions to various problems in the xSam web app.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/xsam-solutions" # the subpath of your site, e.g. /blog
+url: "https://engrleir.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: engrleir
 github_username:  engrleir
 
