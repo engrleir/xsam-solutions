@@ -15,7 +15,7 @@ webrick:
 collections:
   posts:
     output: true
-    permalink: /solutions/:name/
+    permalink: /solutions/:title/
 
 defaults:
   - scope:
