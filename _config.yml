@@ -27,8 +27,8 @@ url: "https://engrleir.github.io" # the base hostname & protocol for your site, 
 twitter_username: engrleir
 github_username:  engrleir
 
-# Build settings
-theme: minima
+# # Build settings
+# theme: minima
 
 # Allow iframe embedding
 webrick:
