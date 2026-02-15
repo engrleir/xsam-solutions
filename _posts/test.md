@@ -1,0 +1,17 @@
+---
+layout: solution
+title: "Beam Moment Distribution"
+question_id: 42
+categories: structural-analysis
+math: true
+---
+
+## Solution
+
+Given: Beam length L = {{ "{{" }} page.L }} m, Load W = {{ "{{" }} page.W }} kN
+
+### Step 1: Calculate reactions
+...
+
+### Step 2: Moment distribution
+...
