@@ -1,0 +1,44 @@
+# NOTE - set this up if locally dev
+# local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main # Branch to update
+media_folder: 'assets/uploads'
+public_folder: "/xsam-solutions/assets/uploads"
+collections:
+  - name: 'solution'
+    label: 'Solution'
+    folder: '_posts/'
+    create: true
+    identifier_field: question_id
+    slug: "{{year}}-{{month}}-{{day}}-solution-{{question_id}}"
+    summary: "Question #{{question_id}} - {{ question_text }}"
+    fields:
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: solution
+
+      - label: Question ID
+        name: question_id
+        widget: number
+
+      - label: Categories
+        name: categories
+        widget: list
+        default: [] 
+
+      - label: Math
+        name: math
+        widget: hidden
+        default: true
+
+      - label: Question Text
+        name: question_text
+        widget: text
+        required: false
+
+      - label: Content
+        name: body
+        widget: richtext

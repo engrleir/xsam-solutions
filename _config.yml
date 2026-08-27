@@ -12,7 +12,7 @@ webrick:
     X-Frame-Options: "ALLOWALL"
 
 plugins:
-  - jekyll-admin
+  # - jekyll-admin
   - jekyll-relative-links
 
 # Solution permalink structure
@@ -31,14 +31,14 @@ defaults:
         - 
       math: true
 
-jekyll_admin:
-  homepage: "posts"
-  hidden_links:
-    # - posts
-    - pages
-    # - staticfiles
-    - datafiles
-    - configuration
+# jekyll_admin:
+#   homepage: "posts"
+#   hidden_links:
+#     # - posts
+#     - pages
+#     # - staticfiles
+#     - datafiles
+#     - configuration
 
 relative_links:
   enabled:     true
