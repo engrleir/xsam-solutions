@@ -155,5 +155,5 @@ CMS.registerPreviewTemplate(
 );
 
 CMS.registerPreviewStyle(
-    "/xsam-solutions/admin/preview.css"
+    "/admin/preview.css"
 );

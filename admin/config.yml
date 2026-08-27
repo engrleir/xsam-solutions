@@ -7,7 +7,7 @@ backend:
   repo: engrleir/xsam-solutions
   branch: main # Branch to update
 media_folder: 'assets/uploads'
-public_folder: "/xsam-solutions/assets/uploads"
+public_folder: "/assets/uploads"
 collections:
   - name: 'solution'
     label: 'Solution'
