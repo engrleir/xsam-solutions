@@ -1,7 +1,7 @@
 title: xSam Solutions
 email: engr.leir@gmail.com
 description: A blog containing solutions to various problems in the xSam web app.
-baseurl: "/xsam-solutions" # the subpath of your site, e.g. /blog
+# baseurl: "/xsam-solutions" # the subpath of your site, e.g. /blog
 url: "https://xsam-solutions.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: engrleir
 github_username:  engrleir
