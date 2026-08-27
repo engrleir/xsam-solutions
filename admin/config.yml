@@ -1,8 +1,10 @@
 # NOTE - set this up if locally dev
 # local_backend: true
-
+#backend:
+  # name: git-gateway
 backend:
-  name: git-gateway
+  name: github
+  repo: engrleir/xsam-solutions
   branch: main # Branch to update
 media_folder: 'assets/uploads'
 public_folder: "/xsam-solutions/assets/uploads"
