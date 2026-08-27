@@ -19,7 +19,20 @@ collections:
 
 defaults:
   - scope:
-      type: solutions
+      type: posts
     values:
       layout: solution
+      question_id: 
+      categories: 
+        - 
+      math: true
+
+jekyll_admin:
+  homepage: "posts"
+  hidden_links:
+    # - posts
+    - pages
+    # - staticfiles
+    - datafiles
+    - configuration
 
