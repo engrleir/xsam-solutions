@@ -11,6 +11,10 @@ webrick:
   headers:
     X-Frame-Options: "ALLOWALL"
 
+plugins:
+  - jekyll-admin
+  - jekyll-relative-links
+
 # Solution permalink structure
 collections:
   posts:
@@ -35,4 +39,8 @@ jekyll_admin:
     # - staticfiles
     - datafiles
     - configuration
+
+relative_links:
+  enabled:     true
+  collections: true
 

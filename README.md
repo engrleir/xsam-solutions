@@ -1,5 +1,7 @@
 This repository contains the solutions to the xSam question bank. Solutions are expressed as markdown files.
 
+Recommended: Use Obsidian to edit markdown files.
+
 URL to get list of solutions pages: 
 
 `/solutions.json`
